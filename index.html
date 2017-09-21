@@ -1,0 +1,13 @@
+<!doctype html> 
+ <body> 
+     <input type="text" placeholder="이름을 입력하세요" id="myname"> 
+     <input type="text" placeholder="오늘의기분을입력하세요" id="feeling"> 
+     <button id = "action">실행</button> 
+     <div id="display2"></div> 
+ <script> 
+    
+   action.onclick = function(){ 
+     display2.innerHTML = myname.value +"씨는오늘" + feeling.value; 
+} 
+ </script> 
+ </body> 
